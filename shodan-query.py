@@ -16,9 +16,8 @@ def check_api():
     if len(API_KEY) == 0:
         print "[!] Please provide a Shodan API key"
         sys.exit(1)
-    else:
-        # Try validity of API KEY
-        return 1
+    # Try validity of API KEY?
+        
 
 # Parse provided (user) args 
 def parse_args():
